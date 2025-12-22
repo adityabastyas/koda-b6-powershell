@@ -1,0 +1,80 @@
+1. Get-Command Menampilkan daftar perintah yang tersedia
+Get-Command -Name Get-*
+alias gcm
+
+2. Remove-Item Menghapus file atau folder.
+Remove-Item -Path C:\Test -Recurse -Force
+Alias: rm, del, erase, rmdir
+
+3. Copy-Item Menyalin file.
+Copy-Item -Path file.txt -Destination D:\Backup
+Alias: cp, copy
+
+4. Test-Path Mengecek apakah file/folder ada.
+Test-Path -Path C:\Test
+Alias: tp
+
+5. Get-Date Menampilkan tanggal dengan format tertentu.
+Get-Date -Format "dd-MM-yyyy"
+Alias: date
+
+6. Restart-Computer Merestart komputer.
+Restart-Computer -Force
+
+7. Get-Process
+Tampilkan semua proses yang sedang berjalan.
+Alias: gps, ps
+
+8. Stop-Process -Name notepad
+Hentikan aplikasi Notepad yang sedang berjalan.
+Alias: kill, spps
+
+9. New-Item -Path namafolder
+ Buat folder
+Alias: ni
+
+10. Get-ChildItem
+Melihat isi folder
+Alias: ls, dir, gci
+
+11. Set-Location Pindah direktori
+Set-Location C:\Users
+Alias: cd, sl, chdir
+
+12. Get-Location Melihat lokasi folder saat ini
+Alias: pwd, gl
+
+13. New-Item test.txt -ItemType File
+ Membuat file Alias: ni
+
+14. Move-Item Memindahkan file
+Move-Item test.txt D:\Data
+Alias: mv, move
+
+
+15. Rename-Item Mengganti nama file/folder
+Rename-Item test.txt data.txt
+Alias: ren, rni
+
+16. Get-Content Menampilkan isi file
+Get-Content file.txt
+Alias: cat, type, gc
+
+17. Set-Content Menulis isi file
+Set-Content file.txt "Hello World"
+Alias: sc
+
+18. Add-Content Menambahkan isi file
+Add-Content file.txt "Baris baru"
+Alias: ac
+
+19. Clear-Host Membersihkan layar
+Clear-Host
+Alias: cls, clear
+
+20. Get-Help Get-Command  Melihat bantuan perintah
+help Get-Command
+
+21. Get-Service Menampilkan semua service di Windows
+Alias: gsv
+
